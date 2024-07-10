@@ -1,7 +1,13 @@
-from scraper import *
+from scraper import Scraper
 
-scr = Scraper()
+def main():
+    test_url = "http://olympus.realpython.org/profiles/aphrodite"
+    test_
 
-html = scr.scrap_html()
+    scr = Scraper()
 
-print(html)
+    html = scr.scrap_html()
+
+    print(html)
+
+if __name__ == 
